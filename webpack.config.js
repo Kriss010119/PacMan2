@@ -8,7 +8,7 @@ const config = () => ({
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '/'
+    publicPath: '/PacMan2/',
   },
   devServer: {
     port: 8080,
