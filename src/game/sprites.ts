@@ -11,7 +11,7 @@ export const sprite = (name: string): HTMLImageElement | null => {
     img.onload = () => {
       cache.set(name, img);
     };
-    img.src = `image/${name}.png`;
+    img.src = `./image/${name}.png`;
   }
   return cache.get(name) ?? null;
 };
